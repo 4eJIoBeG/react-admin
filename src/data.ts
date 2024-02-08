@@ -458,12 +458,12 @@ export const userRows = [
 export const products = [
   {
     id: 1,
-    img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
-    title: "Playstation 5 Digital Edition",
+    img: "https://www.pngmart.com/files/6/Dell-Laptop-PNG-Image.png",
+    title: "Dell Laptop KR211822-slim",
     color: "white",
-    producer: "Sony",
+    producer: "Dell",
     price: "$250.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.02.2022",
     inStock: true,
   },
   {
