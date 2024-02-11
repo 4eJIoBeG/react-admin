@@ -67,7 +67,7 @@ function App() {
   ];
 
   const router = createBrowserRouter(routes, {
-    basename: import.meta.env.DEV ? "/" : "/react-vite-gh-pages/",
+    basename: "/react-admin/",
   });
 
   return <RouterProvider router={router} />;
