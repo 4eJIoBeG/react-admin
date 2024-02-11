@@ -67,7 +67,7 @@ function App() {
   ];
 
   const router = createBrowserRouter(routes, {
-    basename: "/",
+    basename: "/react-admin/",
   });
 
   return <RouterProvider router={router} />;
