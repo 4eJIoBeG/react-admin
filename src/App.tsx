@@ -33,7 +33,7 @@ function App() {
     );
   };
 
-  const router = createBrowserRouter([
+  const routes = [
     {
       path: "/",
       element: <Layout />,
@@ -64,7 +64,11 @@ function App() {
       path: "/login",
       element: <Login />,
     },
-  ]);
+  ];
+
+  const router = createBrowserRouter(routes, {
+    basename: import.meta.env.DEV ? "/" : "/react-vite-gh-pages/",
+  });
 
   return <RouterProvider router={router} />;
 }
